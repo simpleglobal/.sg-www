@@ -34,10 +34,6 @@ theme = 'simplemotion'
     url = '/industry/'
     weight = 3
   [[menu.main]]
-    name = 'Products'
-    url = '/products/'
-    weight = 4
-  [[menu.main]]
     name = 'About'
     url = '/about/'
     weight = 5
