@@ -246,7 +246,7 @@ h1, h2, h3, h4 {
 }
 
 .hero-banner-text {
-  height: clamp(40px, 8vw, 100px);
+  height: clamp(60px, 12vw, 150px);
   width: auto;
 }
 
