@@ -228,11 +228,26 @@ h1, h2, h3, h4 {
   width: 100%;
 }
 
-.hero-banner {
+.hero-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-md);
+  margin-bottom: var(--space-lg);
   width: 100%;
   max-width: 1200px;
-  height: auto;
-  margin-bottom: var(--space-lg);
+}
+
+.hero-favicon {
+  height: clamp(80px, 12vw, 160px);
+  width: auto;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.hero-banner-text {
+  height: clamp(40px, 8vw, 100px);
+  width: auto;
 }
 
 .hero-title {
