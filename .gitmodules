@@ -1,6 +1,6 @@
 [submodule ".claude"]
 	path = .claude
-	url = https://github.com/SimpleMotion-9900-0000-00-Templates/.claude-executive.git
+	url = https://github.com/simpleglobal/.claude-executive.git
 [submodule ".simplemotion"]
 	path = .simplemotion
 	url = https://github.com/simplemotion/.simplemotion.git
