@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file.
 
 | Version | Hash | Date | Author | Message |
 |---------|------|------|--------|---------|
-| v0.0.0.9 | PENDING | 2026-04-13 11:00 UTC | Greg Gowans | Fix CHANGE.md hashes for v0.0.0.1–5, switch .claude URL+pointer to simpleglobal |
+| v0.0.0.9 | 6b7ea8d | 2026-04-13 11:00 UTC | Greg Gowans | Fix CHANGE.md hashes for v0.0.0.1–5, switch .claude URL+pointer to simpleglobal |
 | v0.0.0.8 | ac42444 | 2026-04-13 10:57 UTC | Greg Gowans | Update .simplemotion submodule URL to simplemotion org |
 | v0.0.0.7 | 1baeb7e | 2026-04-13 06:40 UTC | Greg Gowans | Add CNAME for GitHub Pages custom domain |
 | v0.0.0.6 | 4d29e05 | 2026-04-13 06:38 UTC | Greg Gowans | Adapt website for SimpleGlobal — new.simplemotion.global |
