@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Repository Purpose
 
-This is the **public website** for SimpleMotion, hosted via GitHub Pages at https://new.simplemotion.com. It is a static site built with Hugo using a custom dark minimalist theme.
+This is the **public website** for SimpleGlobal, hosted via GitHub Pages at https://new.simplemotion.global. It is a static site built with Hugo using a custom dark minimalist theme.
 
 **No build system beyond Hugo.** Content is Markdown. Pushing to `main` triggers GitHub Actions to build and deploy.
 
@@ -32,5 +32,5 @@ hugo --minify
 ## Key Rules
 
 - **Do not include "Co-Authored-By" trailers in git commits.**
-- All intellectual property is assigned to SimpleMotion.Global Pty Ltd per `ASSIGN.md`.
+- All intellectual property is assigned to SimpleGlobal.Global Pty Ltd per `ASSIGN.md`.
 - Licensed under MIT (`LICENSE.md`).

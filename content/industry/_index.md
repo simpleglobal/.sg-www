@@ -6,7 +6,7 @@ description: "Industrial motion control, custom machinery, and precision automat
 
 ## Precision in Motion
 
-SimpleMotion brings entertainment-grade precision and reliability to industrial applications. Our experience with safety-critical systems in live performance translates directly to the demands of manufacturing and process industries.
+SimpleGlobal brings entertainment-grade precision and reliability to industrial applications. Our experience with safety-critical systems in live performance translates directly to the demands of manufacturing and process industries.
 
 ## What We Do
 

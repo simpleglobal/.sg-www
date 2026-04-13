@@ -1,6 +1,6 @@
 # .simplemotion.new
 
-Public website for SimpleMotion at https://new.simplemotion.com — Engineered for Architecture, Entertainment and Industry.
+Public website for SimpleGlobal at https://new.simplemotion.global — Engineered for Architecture, Entertainment and Industry.
 
 ## Technology
 
@@ -41,8 +41,8 @@ Pushing to `main` triggers the GitHub Actions workflow (`.github/workflows/deplo
 
 ## ADR
 
-Technology decisions for this website are documented in [9001-0005-00-ADR-website-technology-stack.md](https://github.com/SimpleMotion-9100-0000-00-ADR/9001-0001-00-Governance/blob/main/docs/decisions/9001-0005-00-ADR-website-technology-stack.md).
+Technology decisions for this website are documented in [9001-0005-00-ADR-website-technology-stack.md](https://github.com/SimpleGlobal-9100-0000-00-ADR/9001-0001-00-Governance/blob/main/docs/decisions/9001-0005-00-ADR-website-technology-stack.md).
 
 ## License
 
-MIT — SimpleMotion.Global Pty Ltd.
+MIT — SimpleGlobal.Global Pty Ltd.

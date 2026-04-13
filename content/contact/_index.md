@@ -1,7 +1,7 @@
 ---
 title: "Contact"
 subtitle: "Let's talk about your project."
-description: "Get in touch with SimpleMotion for your next motion control project."
+description: "Get in touch with SimpleGlobal for your next motion control project."
 ---
 
 ## Get in Touch

@@ -6,7 +6,7 @@ description: "Building automation, facade systems, and kinetic architectural ele
 
 ## Transforming Spaces
 
-SimpleMotion designs and delivers motion control systems for architectural applications — from automated facade elements to kinetic building features that respond to environmental conditions and occupant needs.
+SimpleGlobal designs and delivers motion control systems for architectural applications — from automated facade elements to kinetic building features that respond to environmental conditions and occupant needs.
 
 ## What We Do
 

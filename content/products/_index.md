@@ -1,7 +1,7 @@
 ---
 title: "Products"
 subtitle: "Purpose-built motion control systems."
-description: "Download Simplicity One and Simplicity Two — SimpleMotion's motion control platforms."
+description: "Download Simplicity One and Simplicity Two — SimpleGlobal's motion control platforms."
 ---
 
 <div id="simplicity-one" class="product-section">

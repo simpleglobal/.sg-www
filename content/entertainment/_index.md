@@ -6,7 +6,7 @@ description: "Stage machinery, performer flying, and theatrical automation for l
 
 ## Engineering the Impossible
 
-For twenty years, SimpleMotion has engineered motion control systems for live entertainment — from intimate theatre to large-scale touring productions. We design, build, and commission stage machinery that performers and crew trust every night.
+For twenty years, SimpleGlobal has engineered motion control systems for live entertainment — from intimate theatre to large-scale touring productions. We design, build, and commission stage machinery that performers and crew trust every night.
 
 ## What We Do
 

@@ -1,12 +1,12 @@
-baseURL = 'https://new.simplemotion.com/'
+baseURL = 'https://new.simplemotion.global/'
 languageCode = 'en-au'
-title = 'SimpleMotion'
-theme = 'simplemotion'
+title = 'SimpleGlobal'
+theme = 'simpleglobal'
 
 [params]
-  description = 'Engineered for Architecture, Entertainment and Industry.'
-  tagline = 'Engineered for Architecture, Entertainment and Industry.'
-  email = 'info@simplemotion.com'
+  description = 'Global Operations.'
+  tagline = 'Global Operations.'
+  email = 'info@simplemotion.global'
   phone = '+61 2 9737 9844'
   address = '20-22 Hampstead Road, Auburn NSW, Australia'
 
