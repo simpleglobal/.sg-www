@@ -4,8 +4,8 @@ title = 'SimpleGlobal'
 theme = 'simpleglobal'
 
 [params]
-  description = 'Globally Engineered, Locally built and delivered.'
-  tagline = 'Globally Engineered, Locally built and delivered.'
+  description = 'Globally Engineered, Locally Delivered.'
+  tagline = 'Globally Engineered, Locally Delivered.'
   email = 'info@simplemotion.global'
   phone = '+61 2 9737 9844'
   address = '20-22 Hampstead Road, Auburn NSW, Australia'
