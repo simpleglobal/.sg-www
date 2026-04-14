@@ -4,6 +4,7 @@ All notable changes to this project will be documented in this file.
 
 | Version | Hash | Date | Author | Message |
 |---------|------|------|--------|---------|
+| v0.0.0.25 | 69ea6fc | 2026-04-14 01:55 UTC | Greg Gowans | Update tagline and menu to match regional structure |
 | v0.0.0.24 | f79cde3 | 2026-04-14 01:55 UTC | Greg Gowans | Add round country flag icons to regional pillar cards |
 | v0.0.0.23 | a6562f5 | 2026-04-14 01:50 UTC | Greg Gowans | Rename content pages: architecture→australia, entertainment→south-korea, industry→japan |
 | v0.0.0.22 | b26b059 | 2026-04-14 01:45 UTC | Greg Gowans | Update Japan pillar description to match South Korea |
