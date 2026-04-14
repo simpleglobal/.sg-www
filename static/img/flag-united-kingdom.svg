@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <clipPath id="uk-clip"><circle cx="256" cy="256" r="256"/></clipPath>
+  <g clip-path="url(#uk-clip)">
+    <rect width="512" height="512" fill="#012169"/>
+    <!-- White diagonals -->
+    <path d="M0 0L512 512M512 0L0 512" stroke="#FFFFFF" stroke-width="68"/>
+    <!-- Red diagonals -->
+    <path d="M0 0L512 512" stroke="#C8102E" stroke-width="34" clip-path="polygon(0 0, 256 256, 0 512, 0 0, 256 256, 512 0)"/>
+    <path d="M256 0V512M0 256H512" stroke="#FFFFFF" stroke-width="102"/>
+    <path d="M256 0V512M0 256H512" stroke="#C8102E" stroke-width="60"/>
+  </g>
+</svg>

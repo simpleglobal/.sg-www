@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <clipPath id="hk-clip"><circle cx="256" cy="256" r="256"/></clipPath>
+  <g clip-path="url(#hk-clip)">
+    <rect width="512" height="512" fill="#DE2910"/>
+    <!-- Bauhinia petals (simplified) -->
+    <g fill="#FFFFFF" transform="translate(256,256)">
+      <ellipse rx="28" ry="70" transform="rotate(0)"/>
+      <ellipse rx="28" ry="70" transform="rotate(72)"/>
+      <ellipse rx="28" ry="70" transform="rotate(144)"/>
+      <ellipse rx="28" ry="70" transform="rotate(216)"/>
+      <ellipse rx="28" ry="70" transform="rotate(288)"/>
+      <circle r="14" fill="#DE2910"/>
+    </g>
+  </g>
+</svg>

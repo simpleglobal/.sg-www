@@ -4,6 +4,7 @@ All notable changes to this project will be documented in this file.
 
 | Version | Hash | Date | Author | Message |
 |---------|------|------|--------|---------|
+| v0.0.0.53 | f129752 | 2026-04-14 05:32 UTC | Greg Gowans | Add entity tiles for Canada, United Kingdom, and Hong Kong with Asian scripts |
 | v0.0.0.51 | 27fbab7 | 2026-04-14 04:05 UTC | Greg Gowans | Change subtitle font weight to 200 (ExtraLight) |
 | v0.0.0.50 | 0063967 | 2026-04-14 04:00 UTC | Greg Gowans | Set subtitle font weight to 100 (Thin) |
 | v0.0.0.49 | ed8f513 | 2026-04-14 03:55 UTC | Greg Gowans | Match subtitle font size and family to title on second-tier pages |
