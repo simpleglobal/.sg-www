@@ -69,3 +69,6 @@ other = "SimpleGlobal Pty Ltd."
 
 [language_label]
 other = "Langue"
+
+[lang_code]
+other = "FR"

@@ -755,18 +755,18 @@ html[lang="ja"] {
   --font-body: 'Noto Sans JP', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 }
 
-html[lang="zh-Hant"] {
+html[lang="zh-HK"] {
   --font-body: 'Noto Sans TC', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 }
 
 html[lang="ko"] body,
 html[lang="ja"] body,
-html[lang="zh-Hant"] body {
+html[lang="zh-HK"] body {
   line-height: 1.8;
 }
 
 html[lang="ko"] h1, html[lang="ko"] h2, html[lang="ko"] h3, html[lang="ko"] h4,
 html[lang="ja"] h1, html[lang="ja"] h2, html[lang="ja"] h3, html[lang="ja"] h4,
-html[lang="zh-Hant"] h1, html[lang="zh-Hant"] h2, html[lang="zh-Hant"] h3, html[lang="zh-Hant"] h4 {
+html[lang="zh-HK"] h1, html[lang="zh-HK"] h2, html[lang="zh-HK"] h3, html[lang="zh-HK"] h4 {
   letter-spacing: 0;
 }

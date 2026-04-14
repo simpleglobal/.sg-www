@@ -84,27 +84,27 @@ defaultContentLanguageInSubdir = false
       url = '/ja/industry/'
       weight = 3
 
-  [languages.zh-hant]
-    languageCode = 'zh-Hant'
+  [languages.zh-hk]
+    languageCode = 'zh-HK'
     languageName = '繁體中文'
     weight = 4
-    [languages.zh-hant.params]
+    [languages.zh-hk.params]
       description = '全球設計，在地交付。'
       tagline = '全球設計，在地交付。'
       email = 'info@simplemotion.global'
       phone = '+61 2 9737 9844'
       address = '20-22 Hampstead Road, Auburn NSW, Australia'
-    [[languages.zh-hant.menus.main]]
+    [[languages.zh-hk.menus.main]]
       name = '建築'
-      url = '/zh-hant/architecture/'
+      url = '/zh-hk/architecture/'
       weight = 1
-    [[languages.zh-hant.menus.main]]
+    [[languages.zh-hk.menus.main]]
       name = '娛樂'
-      url = '/zh-hant/entertainment/'
+      url = '/zh-hk/entertainment/'
       weight = 2
-    [[languages.zh-hant.menus.main]]
+    [[languages.zh-hk.menus.main]]
       name = '工業'
-      url = '/zh-hant/industry/'
+      url = '/zh-hk/industry/'
       weight = 3
 
   [languages.fr]
