@@ -217,7 +217,7 @@ h1, h2, h3, h4 {
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: var(--space-md) var(--space-md) var(--space-xl);
+  padding: var(--space-md) var(--space-md) var(--space-md);
   margin-top: var(--nav-height);
 }
 
@@ -263,7 +263,7 @@ h1, h2, h3, h4 {
    ======================================== */
 
 .pillars {
-  padding: var(--space-xl) var(--space-md);
+  padding: var(--space-md) var(--space-md);
   background: var(--color-bg);
 }
 
