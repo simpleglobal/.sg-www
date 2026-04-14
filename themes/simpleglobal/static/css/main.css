@@ -500,14 +500,20 @@ h1, h2, h3, h4 {
 }
 
 .page-heading-sep {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: var(--text-xl);
+  font-weight: 300;
   color: var(--color-text-muted);
+  line-height: 1;
   margin: 0 0.25rem;
 }
 
 .page-heading-subtitle {
-  font-size: var(--text-sm);
-  color: var(--color-text-secondary);
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: var(--text-xl);
   font-weight: 300;
+  color: var(--color-text-secondary);
+  line-height: 1;
   white-space: nowrap;
 }
 
