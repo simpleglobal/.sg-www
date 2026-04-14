@@ -4,6 +4,7 @@ All notable changes to this project will be documented in this file.
 
 | Version | Hash | Date | Author | Message |
 |---------|------|------|--------|---------|
+| v0.0.0.23 | a6562f5 | 2026-04-14 01:50 UTC | Greg Gowans | Rename content pages: architecture→australia, entertainment→south-korea, industry→japan |
 | v0.0.0.22 | b26b059 | 2026-04-14 01:45 UTC | Greg Gowans | Update Japan pillar description to match South Korea |
 | v0.0.0.21 | 4d46356 | 2026-04-14 01:45 UTC | Greg Gowans | Update regional pillar descriptions for Australia, South Korea, Japan |
 | v0.0.0.20 | 9e688fd | 2026-04-14 01:40 UTC | Greg Gowans | Change homepage pillars to regional: Australia, South Korea, Japan |
