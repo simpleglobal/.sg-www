@@ -1,0 +1,71 @@
+[country_australia]
+other = "澳洲"
+
+[country_australia_entity]
+other = "SimpleGlobal.Australia Pty Ltd"
+
+[country_australia_desc]
+other = "總部及工程中心。亞太地區的建築、娛樂及工業自動化。"
+
+[country_south_korea]
+other = "韓國"
+
+[country_south_korea_entity]
+other = "SimpleGlobal.South-Korea Co., Ltd."
+
+[country_south_korea_entity_script]
+other = "주식회사"
+
+[country_south_korea_desc]
+other = "為韓國各地的現場演出場館及巡迴演出提供劇場自動化及舞台機械。"
+
+[country_japan]
+other = "日本"
+
+[country_japan_entity]
+other = "SimpleGlobal.Japan K.K."
+
+[country_japan_entity_script]
+other = "株式會社"
+
+[country_japan_desc]
+other = "為日本各地的現場演出場館及巡迴演出提供劇場自動化及舞台機械。"
+
+[country_canada]
+other = "加拿大"
+
+[country_canada_entity]
+other = "SimpleGlobal.Canada Ltd."
+
+[country_canada_desc]
+other = "為加拿大及北美提供建築、娛樂及工業自動化工程服務。"
+
+[country_uk]
+other = "英國"
+
+[country_uk_entity]
+other = "SimpleGlobal.United-Kingdom Ltd"
+
+[country_uk_desc]
+other = "為英國及歐洲提供建築、娛樂及工業自動化工程服務。"
+
+[country_hong_kong]
+other = "香港"
+
+[country_hong_kong_entity]
+other = "SimpleGlobal.Hong-Kong Limited"
+
+[country_hong_kong_entity_script]
+other = "有限公司"
+
+[country_hong_kong_desc]
+other = "為大中華區及東南亞提供建築、娛樂及工業自動化工程服務。"
+
+[explore]
+other = "了解更多 →"
+
+[footer_copyright]
+other = "SimpleGlobal Pty Ltd."
+
+[language_label]
+other = "語言"

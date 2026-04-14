@@ -1,0 +1,71 @@
+[country_australia]
+other = "Australie"
+
+[country_australia_entity]
+other = "SimpleGlobal.Australia Pty Ltd"
+
+[country_australia_desc]
+other = "Siège social et centre d'ingénierie. Automatisation architecturale, de divertissement et industrielle dans la région Asie-Pacifique."
+
+[country_south_korea]
+other = "Corée du Sud"
+
+[country_south_korea_entity]
+other = "SimpleGlobal.South-Korea Co., Ltd."
+
+[country_south_korea_entity_script]
+other = "주식회사"
+
+[country_south_korea_desc]
+other = "Automatisation théâtrale et machinerie scénique pour les salles de spectacle et les tournées en Corée."
+
+[country_japan]
+other = "Japon"
+
+[country_japan_entity]
+other = "SimpleGlobal.Japan K.K."
+
+[country_japan_entity_script]
+other = "株式会社"
+
+[country_japan_desc]
+other = "Automatisation théâtrale et machinerie scénique pour les salles de spectacle et les tournées au Japon."
+
+[country_canada]
+other = "Canada"
+
+[country_canada_entity]
+other = "SimpleGlobal.Canada Ltd."
+
+[country_canada_desc]
+other = "Services d'ingénierie pour l'architecture, le divertissement et l'automatisation industrielle au Canada et en Amérique du Nord."
+
+[country_uk]
+other = "Royaume-Uni"
+
+[country_uk_entity]
+other = "SimpleGlobal.United-Kingdom Ltd"
+
+[country_uk_desc]
+other = "Services d'ingénierie pour l'architecture, le divertissement et l'automatisation industrielle au Royaume-Uni et en Europe."
+
+[country_hong_kong]
+other = "Hong Kong"
+
+[country_hong_kong_entity]
+other = "SimpleGlobal.Hong-Kong Limited"
+
+[country_hong_kong_entity_script]
+other = "有限公司"
+
+[country_hong_kong_desc]
+other = "Services d'ingénierie pour l'architecture, le divertissement et l'automatisation industrielle en Grande Chine et en Asie du Sud-Est."
+
+[explore]
+other = "Explorer →"
+
+[footer_copyright]
+other = "SimpleGlobal Pty Ltd."
+
+[language_label]
+other = "Langue"

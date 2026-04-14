@@ -1,0 +1,71 @@
+[country_australia]
+other = "호주"
+
+[country_australia_entity]
+other = "SimpleGlobal.Australia Pty Ltd"
+
+[country_australia_desc]
+other = "본사 및 엔지니어링 센터. 아시아 태평양 지역의 건축, 엔터테인먼트 및 산업 자동화."
+
+[country_south_korea]
+other = "대한민국"
+
+[country_south_korea_entity]
+other = "SimpleGlobal.South-Korea Co., Ltd."
+
+[country_south_korea_entity_script]
+other = "주식회사"
+
+[country_south_korea_desc]
+other = "한국 전역의 라이브 공연장 및 투어링 프로덕션을 위한 극장 자동화 및 무대 기계."
+
+[country_japan]
+other = "일본"
+
+[country_japan_entity]
+other = "SimpleGlobal.Japan K.K."
+
+[country_japan_entity_script]
+other = "株式会社"
+
+[country_japan_desc]
+other = "일본 전역의 라이브 공연장 및 투어링 프로덕션을 위한 극장 자동화 및 무대 기계."
+
+[country_canada]
+other = "캐나다"
+
+[country_canada_entity]
+other = "SimpleGlobal.Canada Ltd."
+
+[country_canada_desc]
+other = "캐나다 및 북미 전역의 건축, 엔터테인먼트 및 산업 자동화 엔지니어링 서비스."
+
+[country_uk]
+other = "영국"
+
+[country_uk_entity]
+other = "SimpleGlobal.United-Kingdom Ltd"
+
+[country_uk_desc]
+other = "영국 및 유럽 전역의 건축, 엔터테인먼트 및 산업 자동화 엔지니어링 서비스."
+
+[country_hong_kong]
+other = "홍콩"
+
+[country_hong_kong_entity]
+other = "SimpleGlobal.Hong-Kong Limited"
+
+[country_hong_kong_entity_script]
+other = "有限公司"
+
+[country_hong_kong_desc]
+other = "중화권 및 동남아시아 전역의 건축, 엔터테인먼트 및 산업 자동화 엔지니어링 서비스."
+
+[explore]
+other = "더 보기 →"
+
+[footer_copyright]
+other = "SimpleGlobal Pty Ltd."
+
+[language_label]
+other = "언어"
