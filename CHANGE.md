@@ -4,6 +4,7 @@ All notable changes to this project will be documented in this file.
 
 | Version | Hash | Date | Author | Message |
 |---------|------|------|--------|---------|
+| v0.0.0.36 | 8652dba | 2026-04-14 02:45 UTC | Greg Gowans | Add minimal copyright footer for SimpleMotion.Global Pty Ltd |
 | v0.0.0.35 | cb8c803 | 2026-04-14 02:40 UTC | Greg Gowans | Remove footer section from homepage |
 | v0.0.0.34 | a6110be | 2026-04-14 02:35 UTC | Greg Gowans | Align pillar icon centre with lowercase x-height centre |
 | v0.0.0.33 | 6422b28 | 2026-04-14 02:30 UTC | Greg Gowans | Fix pillar icon vertical alignment and increase size to 54px |
