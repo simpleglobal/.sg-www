@@ -4,6 +4,7 @@ All notable changes to this project will be documented in this file.
 
 | Version | Hash | Date | Author | Message |
 |---------|------|------|--------|---------|
+| v0.0.0.46 | 36c0ea7 | 2026-04-14 03:40 UTC | Greg Gowans | Match page heading logo-text relationship to pillar cards |
 | v0.0.0.45 | f656a98 | 2026-04-14 03:35 UTC | Greg Gowans | Fix CSS comment: SimpleMotion → SimpleGlobal |
 | v0.0.0.44 | d279eba | 2026-04-14 03:30 UTC | Greg Gowans | Match SM alignment: centre-align logos at x-height, reduce gap to 0.5rem |
 | v0.0.0.43 | 4498888 | 2026-04-14 03:15 UTC | Greg Gowans | Align logo tops with x-height top of lowercase letters |
