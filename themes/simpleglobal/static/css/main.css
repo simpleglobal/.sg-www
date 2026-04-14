@@ -470,11 +470,29 @@ h1, h2, h3, h4 {
   background: var(--color-bg);
 }
 
-.page-hero h1 {
-  font-size: var(--text-2xl);
-  font-weight: 300;
+.page-heading {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
   max-width: var(--max-width);
   margin: 0 auto;
+}
+
+.page-heading-logo img {
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  margin-top: 0.15em;
+}
+
+.page-hero h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: var(--text-2xl);
+  font-weight: 400;
+  line-height: 1;
+  margin: 0;
+  color: var(--color-accent);
 }
 
 .page-subtitle {
