@@ -312,6 +312,7 @@ h1, h2, h3, h4 {
 }
 
 .pillar-card h2 {
+  font-family: 'Josefin Sans', sans-serif;
   font-size: var(--text-xl);
   font-weight: 400;
   margin-bottom: 0;
