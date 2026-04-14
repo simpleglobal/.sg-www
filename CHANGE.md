@@ -4,6 +4,7 @@ All notable changes to this project will be documented in this file.
 
 | Version | Hash | Date | Author | Message |
 |---------|------|------|--------|---------|
+| v0.0.0.41 | 2942308 | 2026-04-14 03:05 UTC | Greg Gowans | Add service listings to Architecture, Entertainment, Industry landing pages |
 | v0.0.0.40 | 45cd1bb | 2026-04-14 03:00 UTC | Greg Gowans | Add Architecture, Entertainment, Industry landing pages with own URLs |
 | v0.0.0.39 | acd3390 | 2026-04-14 02:55 UTC | Greg Gowans | Change nav menu labels to Architecture, Entertainment, Industry |
 | v0.0.0.38 | 4db1f70 | 2026-04-14 02:55 UTC | Greg Gowans | Remove About and Contact from nav, reduce section whitespace |
