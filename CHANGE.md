@@ -4,6 +4,7 @@ All notable changes to this project will be documented in this file.
 
 | Version | Hash | Date | Author | Message |
 |---------|------|------|--------|---------|
+| v0.0.0.26 | 36f41ee | 2026-04-14 02:00 UTC | Greg Gowans | Change SG accent colour from green to blue (#0066CC) across logo, banner, and CSS |
 | v0.0.0.25 | 69ea6fc | 2026-04-14 01:55 UTC | Greg Gowans | Update tagline and menu to match regional structure |
 | v0.0.0.24 | f79cde3 | 2026-04-14 01:55 UTC | Greg Gowans | Add round country flag icons to regional pillar cards |
 | v0.0.0.23 | a6562f5 | 2026-04-14 01:50 UTC | Greg Gowans | Rename content pages: architecture→australia, entertainment→south-korea, industry→japan |
