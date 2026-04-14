@@ -4,6 +4,7 @@ All notable changes to this project will be documented in this file.
 
 | Version | Hash | Date | Author | Message |
 |---------|------|------|--------|---------|
+| v0.0.0.31 | 219ac88 | 2026-04-14 02:20 UTC | Greg Gowans | Remove pillar numbers (01, 02, 03) from homepage cards |
 | v0.0.0.30 | 2766bd6 | 2026-04-14 02:15 UTC | Greg Gowans | Use Josefin Sans for pillar card headings to match banner font |
 | v0.0.0.29 | ce691d4 | 2026-04-14 02:15 UTC | Greg Gowans | Switch to vibrant blue (#0088FF) across logo, banner, and CSS |
 | v0.0.0.28 | c98f0dc | 2026-04-14 02:05 UTC | Greg Gowans | Reduce gap between banner and tagline |
