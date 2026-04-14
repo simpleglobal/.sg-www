@@ -4,8 +4,8 @@ title = 'SimpleGlobal'
 theme = 'simpleglobal'
 
 [params]
-  description = 'Global Operations.'
-  tagline = 'Global Operations.'
+  description = 'Globally Engineered, Locally built and delivered.'
+  tagline = 'Globally Engineered, Locally built and delivered.'
   email = 'info@simplemotion.global'
   phone = '+61 2 9737 9844'
   address = '20-22 Hampstead Road, Auburn NSW, Australia'
@@ -22,16 +22,16 @@ theme = 'simpleglobal'
 
 [menu]
   [[menu.main]]
-    name = 'Architecture'
-    url = '/architecture/'
+    name = 'Australia'
+    url = '/australia/'
     weight = 1
   [[menu.main]]
-    name = 'Entertainment'
-    url = '/entertainment/'
+    name = 'South Korea'
+    url = '/south-korea/'
     weight = 2
   [[menu.main]]
-    name = 'Industry'
-    url = '/industry/'
+    name = 'Japan'
+    url = '/japan/'
     weight = 3
   [[menu.main]]
     name = 'About'
