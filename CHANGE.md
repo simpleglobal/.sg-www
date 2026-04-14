@@ -4,6 +4,7 @@ All notable changes to this project will be documented in this file.
 
 | Version | Hash | Date | Author | Message |
 |---------|------|------|--------|---------|
+| v0.0.0.19 | 87aeed4 | 2026-04-14 01:40 UTC | Greg Gowans | Remove Our Products and CTA sections from homepage |
 | v0.0.0.18 | 16a1da1 | 2026-04-14 01:35 UTC | Greg Gowans | Change banner font weight to 400 (Regular) |
 | v0.0.0.17 | 42fc79f | 2026-04-14 01:35 UTC | Greg Gowans | Bump banner font weight to 500 (Medium) |
 | v0.0.0.16 | 58038a3 | 2026-04-14 01:25 UTC | Greg Gowans | Normalise banner widths: SIMPLE=3450, GLOBAL=4250 (matching MOTION) |
