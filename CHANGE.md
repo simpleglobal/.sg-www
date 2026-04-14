@@ -4,6 +4,7 @@ All notable changes to this project will be documented in this file.
 
 | Version | Hash | Date | Author | Message |
 |---------|------|------|--------|---------|
+| v0.0.0.21 | 4d46356 | 2026-04-14 01:45 UTC | Greg Gowans | Update regional pillar descriptions for Australia, South Korea, Japan |
 | v0.0.0.20 | 9e688fd | 2026-04-14 01:40 UTC | Greg Gowans | Change homepage pillars to regional: Australia, South Korea, Japan |
 | v0.0.0.19 | 87aeed4 | 2026-04-14 01:40 UTC | Greg Gowans | Remove Our Products and CTA sections from homepage |
 | v0.0.0.18 | 16a1da1 | 2026-04-14 01:35 UTC | Greg Gowans | Change banner font weight to 400 (Regular) |
