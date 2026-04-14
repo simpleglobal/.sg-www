@@ -7,9 +7,9 @@
    ======================================== */
 
 @font-face {
-  font-family: 'Josefin Sans';
-  src: url('/fonts/JosefinSans-Variable.woff2') format('woff2');
-  font-weight: 100 700;
+  font-family: 'Noto Sans';
+  src: url('/fonts/NotoSans-Variable.woff2') format('woff2');
+  font-weight: 100 900;
   font-style: normal;
   font-display: swap;
 }
@@ -353,7 +353,7 @@ h1, h2, h3, h4 {
 }
 
 .pillar-card h2 {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   font-size: var(--text-xl);
   font-weight: 400;
   line-height: 1;
@@ -541,7 +541,7 @@ h1, h2, h3, h4 {
 }
 
 .page-hero h1 {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   font-size: var(--text-xl);
   font-weight: 400;
   line-height: 1;
@@ -550,7 +550,7 @@ h1, h2, h3, h4 {
 }
 
 .page-heading-sep {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   font-size: var(--text-xl);
   font-weight: 300;
   color: var(--color-text-muted);
@@ -559,7 +559,7 @@ h1, h2, h3, h4 {
 }
 
 .page-heading-subtitle {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   font-size: var(--text-xl);
   font-weight: 200;
   color: var(--color-text-secondary);
