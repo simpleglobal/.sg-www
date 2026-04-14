@@ -316,7 +316,7 @@ h1, h2, h3, h4 {
   display: flex;
   flex-direction: column;
   aspect-ratio: 3 / 2;
-  padding: var(--space-md) var(--space-sm);
+  padding: var(--space-md) var(--space-sm) var(--space-md);
   background: var(--color-bg-elevated);
   border: 1px solid var(--color-border);
   border-radius: 2px;
@@ -378,7 +378,7 @@ h1, h2, h3, h4 {
   color: var(--color-text-secondary);
   font-size: var(--text-xs);
   line-height: 1.6;
-  margin-bottom: var(--space-sm);
+  margin-bottom: 0;
   flex: 1;
 }
 
@@ -386,6 +386,7 @@ h1, h2, h3, h4 {
   font-size: var(--text-xs);
   color: var(--color-text-muted);
   transition: color 0.2s ease;
+  margin-top: auto;
 }
 
 .pillar-card:hover .pillar-link {
