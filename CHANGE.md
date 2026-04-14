@@ -4,6 +4,7 @@ All notable changes to this project will be documented in this file.
 
 | Version | Hash | Date | Author | Message |
 |---------|------|------|--------|---------|
+| v0.0.0.38 | 4db1f70 | 2026-04-14 02:55 UTC | Greg Gowans | Remove About and Contact from nav, reduce section whitespace |
 | v0.0.0.37 | 60020c3 | 2026-04-14 02:50 UTC | Greg Gowans | Fix copyright to SimpleGlobal Pty Ltd |
 | v0.0.0.36 | 8652dba | 2026-04-14 02:45 UTC | Greg Gowans | Add minimal copyright footer for SimpleMotion.Global Pty Ltd |
 | v0.0.0.35 | cb8c803 | 2026-04-14 02:40 UTC | Greg Gowans | Remove footer section from homepage |
