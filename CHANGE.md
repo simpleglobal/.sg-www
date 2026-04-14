@@ -4,6 +4,7 @@ All notable changes to this project will be documented in this file.
 
 | Version | Hash | Date | Author | Message |
 |---------|------|------|--------|---------|
+| v0.0.0.33 | 6422b28 | 2026-04-14 02:30 UTC | Greg Gowans | Fix pillar icon vertical alignment and increase size to 54px |
 | v0.0.0.32 | 7466c38 | 2026-04-14 02:25 UTC | Greg Gowans | Add blue favicons and update logo-circle accent to blue (#0088FF) |
 | v0.0.0.31 | 219ac88 | 2026-04-14 02:20 UTC | Greg Gowans | Remove pillar numbers (01, 02, 03) from homepage cards |
 | v0.0.0.30 | 2766bd6 | 2026-04-14 02:15 UTC | Greg Gowans | Use Josefin Sans for pillar card headings to match banner font |
