@@ -478,11 +478,15 @@ h1, h2, h3, h4 {
   margin: 0 auto;
 }
 
+.page-heading-logo {
+  display: flex;
+  flex-shrink: 0;
+}
+
 .page-heading-logo img {
   width: 54px;
   height: 54px;
   border-radius: 50%;
-  flex-shrink: 0;
   margin-top: calc(var(--text-xl) * -0.13);
 }
 
