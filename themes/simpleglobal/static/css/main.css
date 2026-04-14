@@ -289,11 +289,11 @@ h1, h2, h3, h4 {
 }
 
 .hero-tagline {
-  font-size: var(--text-lg);
+  font-size: clamp(0.75rem, 0.5rem + 1.5vw, var(--text-lg));
   color: var(--color-text-secondary);
   font-weight: 300;
-  max-width: 600px;
   margin: 0 auto;
+  white-space: nowrap;
 }
 
 /* ========================================
