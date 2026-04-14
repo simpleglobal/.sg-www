@@ -4,6 +4,7 @@ All notable changes to this project will be documented in this file.
 
 | Version | Hash | Date | Author | Message |
 |---------|------|------|--------|---------|
+| v0.0.0.45 | f656a98 | 2026-04-14 03:35 UTC | Greg Gowans | Fix CSS comment: SimpleMotion → SimpleGlobal |
 | v0.0.0.44 | d279eba | 2026-04-14 03:30 UTC | Greg Gowans | Match SM alignment: centre-align logos at x-height, reduce gap to 0.5rem |
 | v0.0.0.43 | 4498888 | 2026-04-14 03:15 UTC | Greg Gowans | Align logo tops with x-height top of lowercase letters |
 | v0.0.0.42 | 9be8cd2 | 2026-04-14 03:10 UTC | Greg Gowans | Add logo circle with home link to second-tier page headings in accent colour |
