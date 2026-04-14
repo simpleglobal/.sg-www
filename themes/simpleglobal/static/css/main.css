@@ -276,8 +276,9 @@ h1, h2, h3, h4 {
 }
 
 .hero-lockup {
-  height: clamp(55px, 8vw, 110px);
-  width: auto;
+  width: min(90vw, 700px);
+  height: auto;
+  flex-shrink: 0;
 }
 
 .hero-title {
