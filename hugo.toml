@@ -23,15 +23,15 @@ theme = 'simpleglobal'
 [menu]
   [[menu.main]]
     name = 'Architecture'
-    url = '/australia/'
+    url = '/architecture/'
     weight = 1
   [[menu.main]]
     name = 'Entertainment'
-    url = '/south-korea/'
+    url = '/entertainment/'
     weight = 2
   [[menu.main]]
     name = 'Industry'
-    url = '/japan/'
+    url = '/industry/'
     weight = 3
 
 [markup]
