@@ -17,3 +17,24 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 });
+
+// Language switcher
+(function () {
+  var langToggle = document.querySelector('.lang-toggle');
+  var langMenu = document.querySelector('.lang-menu');
+  if (!langToggle || !langMenu) return;
+
+  langToggle.addEventListener('click', function (e) {
+    e.stopPropagation();
+    var expanded = langToggle.getAttribute('aria-expanded') === 'true';
+    langToggle.setAttribute('aria-expanded', String(!expanded));
+    langMenu.classList.toggle('open');
+  });
+
+  document.addEventListener('click', function (e) {
+    if (!langToggle.contains(e.target) && !langMenu.contains(e.target)) {
+      langMenu.classList.remove('open');
+      langToggle.setAttribute('aria-expanded', 'false');
+    }
+  });
+})();

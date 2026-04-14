@@ -5,6 +5,41 @@
       <li><a href="{{ .URL }}"{{ if $.IsMenuCurrent "main" . }} class="active"{{ end }}>{{ .Name }}</a></li>
       {{ end }}
     </ul>
+    <div class="lang-switcher">
+      <button class="lang-toggle" aria-label="{{ i18n "language_label" }}" aria-expanded="false">
+        <svg class="globe-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="10"/>
+          <path d="M2 12h20"/>
+          <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+        </svg>
+      </button>
+      <ul class="lang-menu">
+        {{ $currentLang := .Site.Language.Lang }}
+        {{ range .Site.Languages }}
+          {{ $lang := .Lang }}
+          {{ $langName := .LanguageName }}
+          <li{{ if eq $lang $currentLang }} class="lang-active"{{ end }}>
+            {{ if eq $lang $currentLang }}
+              <span>{{ $langName }}</span>
+            {{ else }}
+              {{ $translated := false }}
+              {{ range $.Translations }}
+                {{ if eq .Lang $lang }}
+                  {{ $translated = . }}
+                {{ end }}
+              {{ end }}
+              {{ if $translated }}
+                <a href="{{ $translated.RelPermalink }}">{{ $langName }}</a>
+              {{ else if eq $lang "en" }}
+                <a href="/">{{ $langName }}</a>
+              {{ else }}
+                <a href="/{{ $lang }}/">{{ $langName }}</a>
+              {{ end }}
+            {{ end }}
+          </li>
+        {{ end }}
+      </ul>
+    </div>
     <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
       <span></span>
       <span></span>

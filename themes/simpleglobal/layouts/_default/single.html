@@ -2,7 +2,7 @@
 <section class="page-hero">
   <div class="section-container">
     <div class="page-heading">
-      <a href="/" class="page-heading-logo"><img src="/img/sg-black-logo.svg?v={{ now.Unix }}" alt="SimpleGlobal"></a>
+      <a href="{{ "/" | relLangURL }}" class="page-heading-logo"><img src="/img/sg-black-logo.svg?v={{ now.Unix }}" alt="SimpleGlobal"></a>
       <h1>{{ .Title }}</h1>
       {{ with .Params.subtitle }}<span class="page-heading-sep">—</span><span class="page-heading-subtitle">{{ . }}</span>{{ end }}
     </div>

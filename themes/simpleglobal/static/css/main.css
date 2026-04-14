@@ -112,6 +112,7 @@ h1, h2, h3, h4 {
 }
 
 .nav-container {
+  position: relative;
   max-width: var(--max-width);
   margin: 0 auto;
   padding: 0 var(--space-md);
@@ -618,4 +619,111 @@ h1, h2, h3, h4 {
 .site-footer p {
   font-size: var(--text-xs);
   color: var(--color-text-muted);
+}
+
+/* ========================================
+   Language Switcher
+   ======================================== */
+
+.lang-switcher {
+  position: absolute;
+  right: var(--space-md);
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.lang-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  cursor: pointer;
+  padding: var(--space-xs);
+  color: var(--color-text-secondary);
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.lang-toggle:hover {
+  color: var(--color-text);
+  border-color: var(--color-border);
+}
+
+.globe-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.lang-menu {
+  display: none;
+  position: absolute;
+  top: calc(100% + var(--space-xs));
+  right: 0;
+  list-style: none;
+  background: var(--color-bg-elevated, #161b22);
+  border: 1px solid var(--color-border, #30363d);
+  border-radius: 2px;
+  min-width: 140px;
+  padding: var(--space-xs) 0;
+  z-index: 200;
+}
+
+.lang-menu.open {
+  display: block;
+}
+
+.lang-menu li {
+  padding: 0;
+}
+
+.lang-menu a,
+.lang-menu span {
+  display: block;
+  padding: var(--space-xs) var(--space-sm);
+  font-size: var(--text-sm);
+  color: var(--color-text-secondary);
+  text-decoration: none;
+  transition: color 0.2s ease, background 0.2s ease;
+}
+
+.lang-menu a:hover {
+  color: var(--color-text);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.lang-menu a::after {
+  display: none;
+}
+
+.lang-active span {
+  color: var(--color-accent);
+}
+
+/* ========================================
+   CJK Typography
+   ======================================== */
+
+html[lang="ko"] {
+  --font-body: 'Noto Sans KR', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+html[lang="ja"] {
+  --font-body: 'Noto Sans JP', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+html[lang="zh-Hant"] {
+  --font-body: 'Noto Sans TC', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+html[lang="ko"] body,
+html[lang="ja"] body,
+html[lang="zh-Hant"] body {
+  line-height: 1.8;
+}
+
+html[lang="ko"] h1, html[lang="ko"] h2, html[lang="ko"] h3, html[lang="ko"] h4,
+html[lang="ja"] h1, html[lang="ja"] h2, html[lang="ja"] h3, html[lang="ja"] h4,
+html[lang="zh-Hant"] h1, html[lang="zh-Hant"] h2, html[lang="zh-Hant"] h3, html[lang="zh-Hant"] h4 {
+  letter-spacing: 0;
 }
