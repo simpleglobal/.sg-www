@@ -13,12 +13,10 @@
   <link rel="icon" type="image/png" sizes="16x16" href="/img/favicons/sg-blue/favicon-16x16.png">
   <link rel="icon" type="image/png" sizes="512x512" href="/img/favicons/sg-blue/favicon-512x512.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/img/favicons/sg-blue/favicon-180x180.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400&display=swap" rel="stylesheet">
-  {{ if eq .Site.Language.Lang "ko" }}<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500&display=swap" rel="stylesheet">
-  {{ else if eq .Site.Language.Lang "ja" }}<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500&display=swap" rel="stylesheet">
-  {{ else if eq .Site.Language.Lang "zh-hant" }}<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="preload" href="/fonts/JosefinSans-Variable.woff2" as="font" type="font/woff2" crossorigin>
+  {{ if eq .Site.Language.Lang "ko" }}<link rel="preload" href="/fonts/NotoSansKR-Variable.woff2" as="font" type="font/woff2" crossorigin>
+  {{ else if eq .Site.Language.Lang "ja" }}<link rel="preload" href="/fonts/NotoSansJP-Variable.woff2" as="font" type="font/woff2" crossorigin>
+  {{ else if eq .Site.Language.Lang "zh-Hant" }}<link rel="preload" href="/fonts/NotoSansTC-Variable.woff2" as="font" type="font/woff2" crossorigin>
   {{ end }}
   <link rel="stylesheet" href="/css/main.css?v={{ now.Unix }}">
   {{ block "head" . }}{{ end }}
