@@ -4,6 +4,7 @@ All notable changes to this project will be documented in this file.
 
 | Version | Hash | Date | Author | Message |
 |---------|------|------|--------|---------|
+| v0.0.0.48 | 1097f7e | 2026-04-14 03:50 UTC | Greg Gowans | Move subtitle inline with logo and title on second-tier pages |
 | v0.0.0.47 | c8cf541 | 2026-04-14 03:45 UTC | Greg Gowans | Fix page heading logo alignment: set anchor as flex to remove inline spacing |
 | v0.0.0.46 | 36c0ea7 | 2026-04-14 03:40 UTC | Greg Gowans | Match page heading logo-text relationship to pillar cards |
 | v0.0.0.45 | f656a98 | 2026-04-14 03:35 UTC | Greg Gowans | Fix CSS comment: SimpleMotion → SimpleGlobal |
