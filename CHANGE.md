@@ -4,6 +4,7 @@ All notable changes to this project will be documented in this file.
 
 | Version | Hash | Date | Author | Message |
 |---------|------|------|--------|---------|
+| v0.0.0.30 | 2766bd6 | 2026-04-14 02:15 UTC | Greg Gowans | Use Josefin Sans for pillar card headings to match banner font |
 | v0.0.0.29 | ce691d4 | 2026-04-14 02:15 UTC | Greg Gowans | Switch to vibrant blue (#0088FF) across logo, banner, and CSS |
 | v0.0.0.28 | c98f0dc | 2026-04-14 02:05 UTC | Greg Gowans | Reduce gap between banner and tagline |
 | v0.0.0.27 | 9d22e15 | 2026-04-14 02:00 UTC | Greg Gowans | Update tagline to "Globally Engineered, Locally Delivered." |
