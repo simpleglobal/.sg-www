@@ -43,8 +43,8 @@ defaultContentLanguageInSubdir = false
     languageName = '한국어'
     weight = 2
     [languages.ko.params]
-      description = '전 세계에서 엔지니어링, 지역에서 구축, 현지에서 제공.'
-      tagline = '전 세계에서 엔지니어링, 지역에서 구축, 현지에서 제공.'
+      description = '전 세계 엔지니어링, 지역 구축, 현지 제공.'
+      tagline = '전 세계 엔지니어링, 지역 구축, 현지 제공.'
       email = 'info@simplemotion.global'
       phone = '+61 2 9737 9844'
       address = '20-22 Hampstead Road, Auburn NSW, Australia'
