@@ -4,6 +4,7 @@ All notable changes to this project will be documented in this file.
 
 | Version | Hash | Date | Author | Message |
 |---------|------|------|--------|---------|
+| v0.0.0.13 | 8306ee6 | 2026-04-14 01:15 UTC | Greg Gowans | Fix lockup vertical alignment: centre text cap-height with logo circle |
 | v0.0.0.12 | 544928b | 2026-04-14 01:02 UTC | Greg Gowans | Regenerate banner text and lockup SVGs from Josefin Sans Light — SIMPLEGLOBAL with green accent |
 | v0.0.0.11 | f082ee0 | 2026-04-14 00:41 UTC | Greg Gowans | Refactor brand SVGs: dark-background naming, remove unused variants, add combined lockup for hero |
 | v0.0.0.10 | 9416064 | 2026-04-13 11:30 UTC | Greg Gowans | Fix theme.toml and deploy.yml .com→.global leftovers, bump actions/checkout to v5, opt into Node.js 24 |
