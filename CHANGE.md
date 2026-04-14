@@ -4,6 +4,7 @@ All notable changes to this project will be documented in this file.
 
 | Version | Hash | Date | Author | Message |
 |---------|------|------|--------|---------|
+| v0.0.0.12 | 544928b | 2026-04-14 01:02 UTC | Greg Gowans | Regenerate banner text and lockup SVGs from Josefin Sans Light — SIMPLEGLOBAL with green accent |
 | v0.0.0.11 | f082ee0 | 2026-04-14 00:41 UTC | Greg Gowans | Refactor brand SVGs: dark-background naming, remove unused variants, add combined lockup for hero |
 | v0.0.0.10 | 9416064 | 2026-04-13 11:30 UTC | Greg Gowans | Fix theme.toml and deploy.yml .com→.global leftovers, bump actions/checkout to v5, opt into Node.js 24 |
 | v0.0.0.9 | 6b7ea8d | 2026-04-13 11:00 UTC | Greg Gowans | Fix CHANGE.md hashes for v0.0.0.1–5, switch .claude URL+pointer to simpleglobal |
