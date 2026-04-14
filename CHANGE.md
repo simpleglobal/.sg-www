@@ -4,6 +4,7 @@ All notable changes to this project will be documented in this file.
 
 | Version | Hash | Date | Author | Message |
 |---------|------|------|--------|---------|
+| v0.0.0.54 | 972e363 | 2026-04-14 06:17 UTC | Greg Gowans | Reduce tile padding, font sizes, and grid gap so all six entities fit on one page |
 | v0.0.0.53 | f129752 | 2026-04-14 05:32 UTC | Greg Gowans | Add entity tiles for Canada, United Kingdom, and Hong Kong with Asian scripts |
 | v0.0.0.51 | 27fbab7 | 2026-04-14 04:05 UTC | Greg Gowans | Change subtitle font weight to 200 (ExtraLight) |
 | v0.0.0.50 | 0063967 | 2026-04-14 04:00 UTC | Greg Gowans | Set subtitle font weight to 100 (Thin) |
