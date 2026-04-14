@@ -4,6 +4,7 @@ All notable changes to this project will be documented in this file.
 
 | Version | Hash | Date | Author | Message |
 |---------|------|------|--------|---------|
+| v0.0.0.43 | 4498888 | 2026-04-14 03:15 UTC | Greg Gowans | Align logo tops with x-height top of lowercase letters |
 | v0.0.0.42 | 9be8cd2 | 2026-04-14 03:10 UTC | Greg Gowans | Add logo circle with home link to second-tier page headings in accent colour |
 | v0.0.0.41 | 2942308 | 2026-04-14 03:05 UTC | Greg Gowans | Add service listings to Architecture, Entertainment, Industry landing pages |
 | v0.0.0.40 | 45cd1bb | 2026-04-14 03:00 UTC | Greg Gowans | Add Architecture, Entertainment, Industry landing pages with own URLs |
