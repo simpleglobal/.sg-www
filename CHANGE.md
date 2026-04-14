@@ -4,6 +4,7 @@ All notable changes to this project will be documented in this file.
 
 | Version | Hash | Date | Author | Message |
 |---------|------|------|--------|---------|
+| v0.0.0.16 | 58038a3 | 2026-04-14 01:25 UTC | Greg Gowans | Normalise banner widths: SIMPLE=3450, GLOBAL=4250 (matching MOTION) |
 | v0.0.0.15 | 46be6e8 | 2026-04-14 01:25 UTC | Greg Gowans | Fix vertical alignment and scale GLOBAL width to match MOTION |
 | v0.0.0.14 | 4cadf4b | 2026-04-14 01:15 UTC | Greg Gowans | Add cache-busting query strings to CSS, JS, and image assets |
 | v0.0.0.13 | 8306ee6 | 2026-04-14 01:15 UTC | Greg Gowans | Fix lockup vertical alignment: centre text cap-height with logo circle |
