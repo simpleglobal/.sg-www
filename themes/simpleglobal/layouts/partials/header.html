@@ -1,40 +1,72 @@
 <header class="site-header">
   <nav class="nav-container">
-    <div class="lang-switcher">
-      <button class="lang-toggle" aria-label="{{ i18n "language_label" }}" aria-expanded="false">
-        <span class="lang-code">{{ i18n "lang_code" }}</span>
-        <svg class="globe-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-          <circle cx="12" cy="12" r="10"/>
-          <path d="M2 12h20"/>
-          <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
-        </svg>
-      </button>
-      <ul class="lang-menu">
-        {{ $currentLang := .Site.Language.Lang }}
-        {{ range .Site.Languages }}
-          {{ $lang := .Lang }}
-          {{ $langName := .LanguageName }}
-          <li{{ if eq $lang $currentLang }} class="lang-active"{{ end }}>
-            {{ if eq $lang $currentLang }}
-              <span>{{ $langName }}</span>
-            {{ else }}
-              {{ $translated := false }}
-              {{ range $.Translations }}
-                {{ if eq .Lang $lang }}
-                  {{ $translated = . }}
+    <div class="header-actions">
+      <div class="lang-switcher">
+        <button class="lang-toggle" aria-label="{{ i18n "language_label" }}" aria-expanded="false">
+          <span class="lang-code">{{ i18n "lang_code" }}</span>
+          <svg class="globe-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"/>
+            <path d="M2 12h20"/>
+            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+          </svg>
+        </button>
+        <ul class="lang-menu">
+          {{ $currentLang := .Site.Language.Lang }}
+          {{ range .Site.Languages }}
+            {{ $lang := .Lang }}
+            {{ $langName := .LanguageName }}
+            <li{{ if eq $lang $currentLang }} class="lang-active"{{ end }}>
+              {{ if eq $lang $currentLang }}
+                <span>{{ $langName }}</span>
+              {{ else }}
+                {{ $translated := false }}
+                {{ range $.Translations }}
+                  {{ if eq .Lang $lang }}
+                    {{ $translated = . }}
+                  {{ end }}
+                {{ end }}
+                {{ if $translated }}
+                  <a href="{{ $translated.RelPermalink }}">{{ $langName }}</a>
+                {{ else if eq $lang "en" }}
+                  <a href="/">{{ $langName }}</a>
+                {{ else }}
+                  <a href="/{{ $lang }}/">{{ $langName }}</a>
                 {{ end }}
               {{ end }}
-              {{ if $translated }}
-                <a href="{{ $translated.RelPermalink }}">{{ $langName }}</a>
-              {{ else if eq $lang "en" }}
-                <a href="/">{{ $langName }}</a>
-              {{ else }}
-                <a href="/{{ $lang }}/">{{ $langName }}</a>
-              {{ end }}
-            {{ end }}
-          </li>
-        {{ end }}
-      </ul>
+            </li>
+          {{ end }}
+        </ul>
+      </div>
+      <div class="login-switcher">
+        <button class="login-btn" aria-label="{{ i18n "login_label" }}" aria-expanded="false">
+          <span class="login-status" id="login-status">✗</span>
+          <svg class="login-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"/>
+            <circle cx="12" cy="9" r="3"/>
+            <path d="M17.2 19.4A9.96 9.96 0 0 0 12 18a9.96 9.96 0 0 0-5.2 1.4"/>
+          </svg>
+        </button>
+        <div class="login-menu">
+          <div class="login-state login-state-email">
+            <p class="login-heading">{{ i18n "login_to" }} <span class="brand-simple">SIMPLE</span><span class="brand-accent">GLOBAL</span> →</p>
+            <form class="login-form" id="login-form">
+              <label for="login-email">{{ i18n "login_email_label" }}</label>
+              <input type="email" id="login-email" name="email" placeholder="{{ i18n "login_email_placeholder" }}" required>
+              <button type="submit" class="login-action">{{ i18n "login_send_link" }}</button>
+            </form>
+          </div>
+          <div class="login-state login-state-sent" hidden>
+            <p class="login-heading">{{ i18n "login_check_email" }}</p>
+            <p class="login-detail" id="login-sent-detail">{{ i18n "login_sent_detail" }} <strong id="login-sent-email"></strong></p>
+            <button class="login-action login-action-muted" id="login-back">{{ i18n "login_different_email" }}</button>
+          </div>
+          <div class="login-state login-state-signed-in" hidden>
+            <p class="login-heading">{{ i18n "login_logged_in" }} <span class="brand-simple">SIMPLE</span><span class="brand-accent">GLOBAL</span> <span class="login-tick">✓</span></p>
+            <p class="login-detail" id="login-user-email"></p>
+            <button class="login-action login-action-muted" id="login-signout">{{ i18n "login_logout" }} <span class="brand-simple">SIMPLE</span><span class="brand-accent">GLOBAL</span></button>
+          </div>
+        </div>
+      </div>
     </div>
     <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
       <span></span>

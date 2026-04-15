@@ -72,3 +72,33 @@ other = "Language"
 
 [lang_code]
 other = "EN"
+
+[login_label]
+other = "Login"
+
+[login_to]
+other = "Login to"
+
+[login_email_label]
+other = "Email address"
+
+[login_email_placeholder]
+other = "you@example.com"
+
+[login_send_link]
+other = "Send login link"
+
+[login_check_email]
+other = "Check your email"
+
+[login_sent_detail]
+other = "We sent a login link to"
+
+[login_different_email]
+other = "Use a different email"
+
+[login_logged_in]
+other = "Logged in to"
+
+[login_logout]
+other = "Logout of"

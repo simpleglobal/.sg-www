@@ -72,3 +72,33 @@ other = "언어"
 
 [lang_code]
 other = "한국어"
+
+[login_label]
+other = "로그인"
+
+[login_to]
+other = "로그인"
+
+[login_email_label]
+other = "이메일 주소"
+
+[login_email_placeholder]
+other = "you@example.com"
+
+[login_send_link]
+other = "로그인 링크 보내기"
+
+[login_check_email]
+other = "이메일을 확인하세요"
+
+[login_sent_detail]
+other = "로그인 링크를 보냈습니다:"
+
+[login_different_email]
+other = "다른 이메일 사용"
+
+[login_logged_in]
+other = "로그인 완료"
+
+[login_logout]
+other = "로그아웃"

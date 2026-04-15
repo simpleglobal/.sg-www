@@ -72,3 +72,33 @@ other = "語言"
 
 [lang_code]
 other = "中文"
+
+[login_label]
+other = "登入"
+
+[login_to]
+other = "登入"
+
+[login_email_label]
+other = "電郵地址"
+
+[login_email_placeholder]
+other = "you@example.com"
+
+[login_send_link]
+other = "發送登入連結"
+
+[login_check_email]
+other = "請查看您的電郵"
+
+[login_sent_detail]
+other = "我們已發送登入連結至"
+
+[login_different_email]
+other = "使用其他電郵"
+
+[login_logged_in]
+other = "已登入"
+
+[login_logout]
+other = "登出"

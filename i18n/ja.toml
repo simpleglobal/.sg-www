@@ -72,3 +72,33 @@ other = "言語"
 
 [lang_code]
 other = "日本語"
+
+[login_label]
+other = "ログイン"
+
+[login_to]
+other = "ログイン"
+
+[login_email_label]
+other = "メールアドレス"
+
+[login_email_placeholder]
+other = "you@example.com"
+
+[login_send_link]
+other = "ログインリンクを送信"
+
+[login_check_email]
+other = "メールを確認してください"
+
+[login_sent_detail]
+other = "ログインリンクを送信しました："
+
+[login_different_email]
+other = "別のメールアドレスを使用"
+
+[login_logged_in]
+other = "ログイン済み"
+
+[login_logout]
+other = "ログアウト"

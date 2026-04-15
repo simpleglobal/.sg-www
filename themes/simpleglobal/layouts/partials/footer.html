@@ -1,4 +1,5 @@
 <footer class="site-footer">
   <p>&copy; {{ now.Year }} {{ i18n "footer_copyright" }}</p>
 </footer>
-<script src="/js/nav.js?v={{ now.Unix }}"></script>
+{{ $js := resources.Get "js/nav.ts" | js.Build (dict "targetPath" "js/nav.js") | fingerprint }}
+<script src="{{ $js.RelPermalink }}"></script>

@@ -72,3 +72,33 @@ other = "Langue"
 
 [lang_code]
 other = "FR"
+
+[login_label]
+other = "Connexion"
+
+[login_to]
+other = "Connexion à"
+
+[login_email_label]
+other = "Adresse e-mail"
+
+[login_email_placeholder]
+other = "vous@exemple.com"
+
+[login_send_link]
+other = "Envoyer le lien de connexion"
+
+[login_check_email]
+other = "Vérifiez votre e-mail"
+
+[login_sent_detail]
+other = "Nous avons envoyé un lien de connexion à"
+
+[login_different_email]
+other = "Utiliser un autre e-mail"
+
+[login_logged_in]
+other = "Connecté à"
+
+[login_logout]
+other = "Déconnexion de"
